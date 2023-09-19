@@ -23,7 +23,6 @@ export default function ActivityForm({ activity: selectedActivity, closeForm, cr
     const [activity, setActivity] = useState(initialState);
 
     function hanleSubmit() {
-        console.log(activity);
         createOrEdit(activity);
     }
 
